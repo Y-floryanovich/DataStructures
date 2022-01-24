@@ -69,11 +69,6 @@ namespace Tasks
             return GetNodeByIndex(index).Value;
         }
 
-        public IEnumerator<T> GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
-
         public void Remove(T item)
         {
             var node = Head;
@@ -87,8 +82,21 @@ namespace Tasks
 
             if (node.Value.Equals(item))
             {
-                node.Previous.Next = node.Next;
-               // node.Next.Previous = node.Previous;
+                if (node == Tail)
+                {
+                    Tail = node.Previous;
+                    node.Previous.Next = null;
+                }
+                else if (node == Head)
+                {
+                    Head = node.Next;
+                    node.Next.Previous = null;
+                }
+                else
+                {
+                    node.Previous.Next = node.Next;
+                    node.Next.Previous = node.Previous;
+                }
 
                 Length--;
             }
@@ -123,6 +131,11 @@ namespace Tasks
 
             Length--;
             return node.Value;
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return new DoublyLinkedListEnumerator<T>(this);
         }
 
         IEnumerator<T> IEnumerable<T>.GetEnumerator()
