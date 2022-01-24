@@ -1,0 +1,9 @@
+C:\.NET Basic\DataStructures\DataStructures\Tasks\bin\Debug\netcoreapp3.1\Tasks.deps.json
+C:\.NET Basic\DataStructures\DataStructures\Tasks\bin\Debug\netcoreapp3.1\Tasks.dll
+C:\.NET Basic\DataStructures\DataStructures\Tasks\bin\Debug\netcoreapp3.1\Tasks.pdb
+C:\.NET Basic\DataStructures\DataStructures\Tasks\obj\Debug\netcoreapp3.1\Tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\.NET Basic\DataStructures\DataStructures\Tasks\obj\Debug\netcoreapp3.1\Tasks.AssemblyInfoInputs.cache
+C:\.NET Basic\DataStructures\DataStructures\Tasks\obj\Debug\netcoreapp3.1\Tasks.AssemblyInfo.cs
+C:\.NET Basic\DataStructures\DataStructures\Tasks\obj\Debug\netcoreapp3.1\Tasks.csproj.CoreCompileInputs.cache
+C:\.NET Basic\DataStructures\DataStructures\Tasks\obj\Debug\netcoreapp3.1\Tasks.dll
+C:\.NET Basic\DataStructures\DataStructures\Tasks\obj\Debug\netcoreapp3.1\Tasks.pdb
